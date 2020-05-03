@@ -9,7 +9,7 @@ body{
     min-width: 100vh; 
     background: #ffffff;
 }
-/* Start-head */
+/*#region  head */
 .header {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,8 @@ body{
     text-align: center;
 
 }
-/* title -  head */
+
+/*#region title */
 .title{
     padding: 4em 0 4em 0;
     width: 100%;
@@ -43,8 +44,8 @@ body{
 
     color: #37c0fb;
 }
-
-/* nav-bar - head */
+/*#endregion title */
+/*#region nav-bar */
 
 .navbar{
     display: flex;
@@ -111,8 +112,9 @@ body{
     width: 100%;
     height: 1.2rem;
 }
-
-/* Start-banner*/
+/*#endregion nav-bar*/
+/*#endregion head*/
+/*#region banner*/
 .banner {
     width: 100%;
     height: 37.3em;
@@ -125,13 +127,79 @@ body{
     z-index: 1 ;
 }
 
-/* img-banner */
-.imgbanner {
+/*region img-banner */
+.img_banner {
     width: 100%;
     height: 100%;
 }
 
-/* Media */
+.img_overlay {
+    width: 100%;
+    height: 9.5em;
+    background: rgba(27, 27, 27, 0.75);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_and_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text_and_button a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+    letter-spacing: -0.025em;
+    color: #ffffff;
+  
+}
+
+.text_and_button a em {
+    color: #c0c0c0;
+    font-weight: 300;
+}
+
+.html5-up {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    transition: color 0.5s
+}
+
+.html5-up:hover {
+    color: #37c0fb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.learn_more {
+    vertical-align: middle;
+    margin-left: 1em;
+    padding: 1.3em 3.2em 1.3em 3.2em;
+    background-color: #37c0fb;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s
+}
+
+.learn_more a {
+    font-size: 20px;
+}
+
+.learn_more:hover{
+    background-color: #51c9fc;
+}
+
+/*#endregion img-banner */
+/*#endregion banner*/
+/*#region Media */
 
 @media only screen and (max-width: 1680px) {
 .title {
@@ -229,3 +297,4 @@ height: 0.3rem;
 }
 }
 }
+/*#endregion media*/
