@@ -326,6 +326,63 @@ body{
     color: #999999;
 }
 /*#endregion gigantic*/
+/*#region thing */
+
+.conteiner_thing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    padding: 100px;
+}
+
+.box_thing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 37%;
+    height: 40%;
+    margin: 20px 50px 55px ;   
+}
+
+.text {
+    text-align: left;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.text h2 {
+    font-size: 27px;
+    margin: 0 40px 22px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    color: #474747;
+}
+
+.text p {
+    font-size: 21px;
+    margin: 0 0 34px 40px;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #474747;
+    
+}
+
+.item .image_box {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.image_box img {
+    height: 182px;
+    width: 202px;
+    border-radius: 5px;
+}
+/*#endregion thing */
 /*#endregion banner*/
 /*#region Media */
 
